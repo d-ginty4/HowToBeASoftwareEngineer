@@ -1,7 +1,7 @@
 import { Navbar } from "./components/Navbar"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
-import { About } from "./pages/About";
+import { Java } from "./pages/Java";
 import { Error } from "./pages/Error";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path="/HowToBeASoftwareEngineer" element={<Navbar />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="java" element={<Java />} />
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
