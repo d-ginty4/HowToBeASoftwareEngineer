@@ -1,10 +1,8 @@
 import React from 'react'
-import { Outlet, Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
-    <>
-      <nav className="navbar is-black" role="navigation" aria-label="main navigation">
+      <nav className="navbar is-info" role="navigation" aria-label="main navigation">
         <div className="navbar-brand">
           <a className="navbar-item" href="https://bulma.io">
             <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" />
@@ -64,7 +62,5 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
-      <Outlet />
-    </>
   )
 }

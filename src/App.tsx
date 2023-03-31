@@ -1,21 +1,15 @@
 import { Navbar } from "./components/Navbar"
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Home } from "./pages/Home";
-import { Java } from "./pages/Java";
-import { Error } from "./pages/Error";
+import { Page } from "./components/Page"
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/HowToBeASoftwareEngineer" element={<Navbar />}>
-          <Route index element={<Home />} />
-          <Route path="java" element={<Java />} />
-          <Route path="*" element={<Error />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  )
+    <>
+      <Navbar />
+      <div className="content box m-4">
+        <Page />
+      </div>
+    </>
+  );
 }
 
 export default App
