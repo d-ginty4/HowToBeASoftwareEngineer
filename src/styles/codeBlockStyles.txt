@@ -1,0 +1,10 @@
+tomorrow
+coldarkDark
+dracula
+materialDark
+materialLight
+materialOceanic
+nightOwl
+oneDark
+oneLight
+vscDarkPlus

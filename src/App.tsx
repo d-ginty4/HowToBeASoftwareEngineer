@@ -1,12 +1,12 @@
 import { Navbar } from "./components/Navbar"
-import { Page } from "./components/Page"
+import { Content } from "./components/Content"
 
 function App() {
   return (
     <>
       <Navbar />
       <div className="content box m-4">
-        <Page />
+        <Content />
       </div>
     </>
   );
