@@ -20,3 +20,5 @@ const App = () => {
 
 export default App;
 ```
+
+::link[Go home]{#Home.is-size-2}

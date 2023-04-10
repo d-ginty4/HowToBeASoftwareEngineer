@@ -1,5 +1,4 @@
 # This is the main page
 
-Go to java page
-
-Go to AWS page 
+::link[Java]{#Java.is-size-1}
+::link[AWS]{#AWS.is-size-1}
